@@ -3,6 +3,7 @@ import os
 from sklearn.model_selection import train_test_split
 import logging
 import yaml
+from dvclive import Live
 
 
 # Ensure the "logs" directory exists
